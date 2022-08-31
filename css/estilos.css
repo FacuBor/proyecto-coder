@@ -1877,6 +1877,9 @@
             justify-self: center;
             align-self: center;
         }
+        .section__img__1:hover {
+            transform: scale(1.2,1.2);
+        }
         .section__img__2 {
             grid-area: imagen2;
             width: 460px;
@@ -1884,6 +1887,9 @@
             object-fit: cover;
             justify-self: center;
             align-self: center;
+        }
+        .section__img__2:hover {
+            transform: scale(1.2,1.2);
         }
         .section__img__3 {
             grid-area: imagen3;
@@ -1893,6 +1899,9 @@
             justify-self: center;
             align-self: center;
         }
+        .section__img__3:hover {
+            transform: scale(1.2,1.2);
+        }
         .section__img__4 {
             grid-area: imagen4;
             width: 460px;
@@ -1900,6 +1909,9 @@
             object-fit: cover;
             justify-self: center;
             align-self: center;
+        }
+        .section__img__4:hover {
+            transform: scale(1.2,1.2);
         }
         /* galeria-Videos */
         .section__video__box {
