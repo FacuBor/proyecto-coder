@@ -5,14 +5,68 @@
                     <meta http-equiv="X-UA-Compatible" content="IE=edge">
                     <meta name="viewport" content="width=device-width, initial-scale=1.0">                      
                     <link rel="icon" href="../galeria/auris.ico">
+                    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
                     <link rel="stylesheet" href="../css/estilos.css">
                     <title>GaleriaSS</title>
                 </head>
                 <body> 
-                    <header class="header"> 
-                        
-                    </header>
-                                
+                    <header class="d-flex flex-direction-row justify-content-between fixed-top">
+                        <img src="../galeria/logo.png" alt="" srcset="" class="img">
+                        <nav class="d-flex align-items-end navdesktop">
+                          <ul class="nav fs-5 navcustom">
+                              <li class="nav-item">
+                                <a class="nav-link text-danger" href="../index.html">Inico</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-danger" href="./empresa.html">Empresa</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-danger" href="./galeria.html">Galeria</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-danger" href="./tecnica.html">Tecnica</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link text-danger" href="./contacto.html">Contacto</a>
+                                </li>
+                            </ul>
+                      </nav>    
+                            <!--Navegador Hamburguesa -->
+                            <nav class="navbar fixed-top navhambur">
+                              <div class="container-fluid">
+                                  <img src="../galeria/logo.png" alt="" srcset="" class="img-nav-hambur">
+                                <button class="navbar-toggler text-danger" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                                  <span class="navbar-toggler-icon text-danger"></span>
+                                </button>
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                                  <div class="offcanvas-header text-danger">
+                                    <h5 class="offcanvas-title " id="offcanvasNavbarLabel">Segura Sonido</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                  </div>
+                                  <div class="offcanvas-body">
+                                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                      <li class="nav-item ">
+                                        <a class="nav-link text-body" aria-current="page" href="../index.html">Inicio</a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link text-body" href="./empresa.html">Empresa</a>
+                                      </li>
+                                      <li class="nav-item">
+                                          <a class="nav-link text-body" href="./galeria.html">Galeria</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link text-body" href="./tecnica.html">Tecnica</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link text-body" href="./contacto.html">Contacto</a>
+                                        </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </nav>
+                            
+                      </header>     
                     <main id="grid__galeria__box">                          
                         <section class="section__img__box">                             
                             <h1 class="section__img__titulo">IMAGENES</h1>
@@ -37,5 +91,6 @@
                     </div>
                     <p class="footer__rubro">50 años en el rubro de los espectáculos avalan nuestros servicios.</p>
                 </footer>
+                <script src="../bootstrap/js/bootstrap.min.js"></script>
                 </body>
 </html>
