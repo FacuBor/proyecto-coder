@@ -1321,7 +1321,7 @@
         }
         .footer__box {
             background-color: #6D0000;
-            width: 100vw;
+            width: auto;
             height: auto;
             display: flex;
             flex-direction: row;
@@ -1362,6 +1362,7 @@
         .grid__empresa__box {
             padding-top: 105px;
             padding-bottom: 25px;
+            height: 100vh;
         }
         /* empresa-quienes somos*/
         .quienesSomos__box {
