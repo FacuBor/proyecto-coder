@@ -175,8 +175,6 @@
             flex-direction:column;
             align-items: center;
             justify-content: center;
-            width: 310px;
-            height: 350px;
             padding: 20px;
         }
         .quienessomosimg {
@@ -187,8 +185,6 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            width: 310px;
-            height: 450px;
         }
         .quehacemosimg {
             width: 160px;
@@ -788,8 +784,6 @@
             flex-direction: row;
             align-items: center;
             justify-content: center;
-            width: 700px;
-            height: 350px;
             padding: 20px;
         }
         .quienessomosimg {
@@ -800,8 +794,6 @@
             flex-direction: row;
             align-items: center;
             justify-content: center;
-            width: 700px;
-            height: 350px;
             padding: 20px;
         }
         .quehacemosimg {
@@ -1386,8 +1378,6 @@
             flex-direction: row;
             align-items: center;
             justify-content: center;
-            width: 900px;
-            height: 350px;
             padding: 20px;
         }
         .quienessomosimg {
@@ -1398,8 +1388,6 @@
             flex-direction: row;
             align-items: center;
             justify-content: center;
-            width: 900px;
-            height: 350px;
             padding: 20px;
         }
         .quehacemosimg {
