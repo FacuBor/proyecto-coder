@@ -14,6 +14,10 @@
 /*mobile*/
  
 @media (min-width: 320px) and (max-width: 768px) {
+        body {
+            background: rgb(83,83,83);
+            background: linear-gradient(180deg, rgba(83,83,83,1) 11%, rgba(208,208,208,1) 97%, rgba(255,255,255,1) 100%);
+        }
         .navhambur {
             display: initial;
             border-radius: 0px 0px 10px 10px;
@@ -36,8 +40,6 @@
         }
         /* Inicio-index*/
         #indexGrid__box {
-            background: rgb(83,83,83);
-            background: linear-gradient(180deg, rgba(83,83,83,1) 11%, rgba(208,208,208,1) 97%, rgba(255,255,255,1) 100%);
             width: 100vw;
             height: auto;  
             z-index: 1;
@@ -154,110 +156,51 @@
             font-size: 15px;
         }
         /* empresa*/
-        #grid__empresa__box {
-            background: rgb(83,83,83);
-            background: linear-gradient(180deg, rgba(83,83,83,1) 11%, rgba(208,208,208,1) 97%, rgba(255,255,255,1) 100%);
-            width: 100vw;
-            height: auto; 
-            display: grid;
-            grid-template-columns: 320px;
-            grid-template-rows: 320px 420px;
-            grid-template-areas: 
-            "quienesSomos"
-            "quehacemos";
-            justify-content: center;
-            align-items: space-evenly;
-            grid-row-gap:20px;
-            padding-top: 80px;
+        .grid__empresa__box {
+            padding-top: 90px;
             padding-bottom: 15px;
         }
         /* empresa-quienes somos*/
         .quienesSomos__box {
-            display: flex;
-            flex-direction: column;
-            flex-direction: wrap;
-            justify-content: space-evenly;
-            align-items: center;
             background-color: #9E9E9E;   
             border-radius: 5px 5px 5px 5px;
-            grid-area: quienesSomos;
-            padding: 10px;
-        }
-        .quienesSomos__titulo {
-            font-size: 20px;
-            font-family: Verdana, Geneva, Tahoma, sans-serif; 
-            color: #575757;  
-        }
-        .quienesSomos__imgtext {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-            background-color: #fff;
-            padding-bottom: 10px;
-            border-radius: 5px 5px 5px 5px;
-            padding-right: 15px;
-        }
-        .quienesSomos__img {
-            width: 200px;
-        }
-        .quienesSomos__parrafo {
-            background-color: #fff; 
-            width: auto;
-            height: auto;
-            font-size: 12px;
-            font-style: italic;
-            font-family:'Libre Franklin', sans-serif;
-            margin-left: 15px;
-        }
-        /* empresa-que hacemos*/
-        .quehacemos__box {
-            background-color: #9E9E9E;
-            border-radius: 5px 5px 5px 5px;
-            grid-area: quehacemos;  
+            margin-bottom: 20px;
             display: flex;
             flex-direction: column;
-            flex-direction: wrap;
-            justify-content: space-around;
-            align-items: center;
-            padding: 10px;
-        }
-        .quehacemos__titulo{
-            font-size: 20px;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            color: #575757;
-        }
-        .quehacemos__imgtext {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-            background-color: #fff;
-            height: auto;
-            width:auto;
-            border-radius: 5px 5px 5px 5px;
-            padding: 10px;
         }
-        .quehacemos__img {
-            width: 240px;
-            height: 180px;
-            margin-bottom: 10px;
+        .card-1 {
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            justify-content: center;
+            width: 310px;
+            height: 350px;
+            padding: 20px;
         }
-        .quehacemos__parrafo {
-            background-color: #fff; 
-            width: auto;
-            height: auto;
-            font-size: 12px;
-            font-style: italic;
-            font-family:'Libre Franklin', sans-serif;
-            margin-left: 15px;
+        .quienessomosimg {
+            width: 150px;
+        }
+        .card-2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 310px;
+            height: 450px;
+        }
+        .quehacemosimg {
+            width: 160px;
+        }
+        .empresaTitulos {
+            font-size: 17px;
+        }
+        .empresaParrafo {
+            font-size: 16px;
         }
         /* galeria */
         #grid__galeria__box {
-            background: rgb(83,83,83);
-            background: linear-gradient(180deg, rgba(83,83,83,1) 11%, rgba(208,208,208,1) 97%, rgba(255,255,255,1) 100%);
             width: 100vw;
             display: grid;
             grid-template-columns: 320px;
@@ -344,8 +287,6 @@
         }
         /* tecninca */
         #grid__tecnica {
-            background: rgb(83,83,83);
-            background: linear-gradient(180deg, rgba(83,83,83,1) 11%, rgba(208,208,208,1) 97%, rgba(255,255,255,1) 100%);
             display: grid;
             grid-template-columns: 310px;
             grid-template-rows: 30px 850px 620px 1400px 280px;
@@ -688,6 +629,10 @@
 /*tablet*/
 
 @media (min-width: 768px) and (max-width: 1100px){
+        body {
+            background: rgb(83,83,83);
+            background: linear-gradient(180deg, rgba(83,83,83,1) 11%, rgba(208,208,208,1) 97%, rgba(255,255,255,1) 100%);
+        }
         .navhambur {
             display: initial;
             border-radius: 0px 0px 10px 10px;
@@ -824,104 +769,49 @@
             font-size: 14px;
         }
          /* empresa*/
-        #grid__empresa__box {
-            background: rgb(83,83,83);
-            background: linear-gradient(180deg, rgba(83,83,83,1) 11%, rgba(208,208,208,1) 97%, rgba(255,255,255,1) 100%);
-            width: 100vw;
-            height: auto; 
-            display: grid;
-            grid-template-columns: 720px;
-            grid-template-rows: 380px 420px;
-            grid-template-areas: 
-            "quienesSomos"
-            "quehacemos";
-            justify-content: center;
-            align-items: space-evenly;
-            grid-row-gap:20px;
-            padding-top: 90px;
+         .grid__empresa__box {
+            padding-top: 105px;
             padding-bottom: 25px;
         }
         /* empresa-quienes somos*/
         .quienesSomos__box {
-            display: flex;
-            flex-direction: column;
-            flex-direction: wrap;
-            justify-content: space-evenly;
-            align-items: center;
             background-color: #9E9E9E;   
             border-radius: 5px 5px 5px 5px;
-            grid-area: quienesSomos;
-            padding: 10px;
-            margin-top: 15px;
-        }
-        .quienesSomos__imgtext {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-            background-color: #fff;
-            padding-bottom: 10px;
-            border-radius: 5px 5px 5px 5px;
-            padding-left: 10px;
-        }
-        .quienesSomos__img {
-            width: 300px;
-        }
-        .quienesSomos__titulo {
-            font-size: 30px;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;   
-        }
-        .quienesSomos__parrafo {
-            background-color: #fff; 
-            width: auto;
-            height: auto;
-            font-size: 16px;
-            font-style: italic;
-            font-family:'Libre Franklin', sans-serif;
-            margin-left: 15px;
-        }
-        /* empresa-que hacemos*/
-        .quehacemos__box {
-            background-color: #9E9E9E;
-            border-radius: 5px 5px 5px 5px;
-            grid-area: quehacemos;  
+            margin-bottom: 20px;
             display: flex;
             flex-direction: column;
-            flex-direction: wrap;
-            justify-content: space-around;
-            align-items: center;
-            padding: 10px;
-        }
-        .quehacemos__titulo{
-            font-size: 30px;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-        .quehacemos__imgtext {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-            background-color: #fff;
-            height: auto;
-            width:auto;
-            border-radius: 5px 5px 5px 5px;
-            padding: 10px;
         }
-        .quehacemos__img {
-            width: 260px;
-            height: 200px;
-            margin-bottom: 10px;
+        .card-1 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            width: 700px;
+            height: 350px;
+            padding: 20px;
         }
-        .quehacemos__parrafo {
-            background-color: #fff; 
-            width: auto;
-            height: auto;
-            font-size: 16px;
-            font-style: italic;
-            font-family:'Libre Franklin', sans-serif;
-            margin-left: 15px;
+        .quienessomosimg {
+            width: 220px;
+        }
+        .card-2 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            width: 700px;
+            height: 350px;
+            padding: 20px;
+        }
+        .quehacemosimg {
+            width: 250px;
+        }
+        .empresaTitulos {
+            font-size: 21px;
+        }
+        .empresaParrafo {
+            font-size: 18px;
         }
          /* galeria */
         #grid__galeria__box {
@@ -1030,8 +920,6 @@
             padding-top: 95px;
             padding-bottom: 15px;
             justify-content: center;
-            background: rgb(83,83,83);
-            background: linear-gradient(180deg, rgba(83,83,83,1) 11%, rgba(208,208,208,1) 97%, rgba(255,255,255,1) 100%);   
             }
         .tecnica__titulo {
             font-family: 'Catamaran', sans-serif;
@@ -1299,7 +1187,6 @@
         }
         /* contacto */
         #grid__contacto {
-            background-color: #575757;
             display: grid;
             grid-template-columns: 450px;
             grid-template-rows: 645px;
@@ -1308,7 +1195,6 @@
             justify-content: center;
             align-items: center;
             padding-top: 90px;
-            background: linear-gradient(180deg, rgba(83,83,83,1) 11%, rgba(208,208,208,1) 97%, rgba(255,255,255,1) 100%);
             height: 800px
         }
         .fieldset{
@@ -1342,6 +1228,11 @@
         header {
             background: #9E9E9E;
             border-radius: 0px 0px 10px 10px;
+            width:100vw;
+        }
+        body {
+            background: rgb(83,83,83);
+            background: linear-gradient(180deg, rgba(83,83,83,1) 11%, rgba(208,208,208,1) 97%, rgba(255,255,255,1) 100%);
         }
         .navcustom {
             margin-bottom: 10px;
@@ -1359,10 +1250,11 @@
         .link-color{
             color: #6D0000;
         }
+        .navdesktop {
+            margin-right: 50px;
+        }
         /* Inicio-index*/
         #indexGrid__box {
-            background: rgb(83,83,83);
-            background: linear-gradient(180deg, rgba(83,83,83,1) 11%, rgba(208,208,208,1) 97%, rgba(255,255,255,1) 100%);
             width: 100vw;
             height: auto;  
             z-index: 1;
@@ -1475,110 +1367,53 @@
             font-size: 14px;
         }
         /* empresa*/
-        #grid__empresa__box {
-            background: rgb(83,83,83);
-            background: linear-gradient(180deg, rgba(83,83,83,1) 11%, rgba(208,208,208,1) 97%, rgba(255,255,255,1) 100%);
-            width: 100vw;
-            height: auto; 
-            display: grid;
-            grid-template-columns: 1100px;
-            grid-template-rows: 500px 575px;
-            grid-template-areas: 
-            "quienesSomos"
-            "quehacemos";
-            justify-content: center;
-            align-items: space-evenly;
-            grid-row-gap:20px;
-            padding-top: 110px;
+        .grid__empresa__box {
+            padding-top: 105px;
             padding-bottom: 25px;
         }
         /* empresa-quienes somos*/
         .quienesSomos__box {
-            display: flex;
-            flex-direction: column;
-            flex-direction: wrap;
-            justify-content: space-evenly;
-            align-items: center;
             background-color: #9E9E9E;   
             border-radius: 5px 5px 5px 5px;
-            grid-area: quienesSomos;
-            padding: 10px;
-            margin-top: 15px;
-        }
-        .quienesSomos__imgtext {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            justify-content: start;
-            align-items: center;
-            background-color: #fff;
-            padding-bottom: 10px;
-            border-radius: 5px 5px 5px 5px;
-            padding-left: 10px;
-            padding-right: 10px;
-            height: 350px;
-        }
-        .quienesSomos__img {
-            width: 400px;
-        }
-        .quienesSomos__titulo {
-            font-size: 35px;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;   
-        }
-        .quienesSomos__parrafo {
-            background-color: #fff; 
-            width: auto;
-            height: auto;
-            font-size: 23px;
-            font-style: italic;
-            font-family:'Libre Franklin', sans-serif;
-            margin-left: 15px;
-        }
-        /* empresa-que hacemos*/
-        .quehacemos__box {
-            background-color: #9E9E9E;
-            border-radius: 5px 5px 5px 5px;
-            grid-area: quehacemos;  
+            margin-bottom: 20px;
             display: flex;
             flex-direction: column;
-            flex-direction: wrap;
-            justify-content: space-around;
+            justify-content: center;
             align-items: center;
-            padding: 10px;
         }
-        .quehacemos__titulo{
-            font-size: 35px;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-        .quehacemos__imgtext {
+        .card-1 {
             display: flex;
             flex-direction: row;
-            flex-wrap: nowrap;
-            justify-content: start;
             align-items: center;
-            background-color: #fff;
-            height: 420px;
-            width:auto;
-            border-radius: 5px 5px 5px 5px;
-            padding: 10px 20px 10px 20px;
+            justify-content: center;
+            width: 900px;
+            height: 350px;
+            padding: 20px;
         }
-        .quehacemos__img {
+        .quienessomosimg {
             width: 300px;
-            height: auto;
         }
-        .quehacemos__parrafo {
-            background-color: #fff; 
-            width: auto;
-            height: auto;
-            font-size: 23px;
-            font-style: italic;
-            font-family:'Libre Franklin', sans-serif;
-            margin-left: 45px;
+        .card-2 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            width: 900px;
+            height: 350px;
+            padding: 20px;
         }
+        .quehacemosimg {
+            width: 300px;
+        }
+        .empresaTitulos {
+            font-size: 28px;
+        }
+        .empresaParrafo {
+            font-size: 22px;
+        }
+        
         /* galeria */
         #grid__galeria__box {
-            background: rgb(83,83,83);
-            background: linear-gradient(180deg, rgba(83,83,83,1) 11%, rgba(208,208,208,1) 97%, rgba(255,255,255,1) 100%);
             width: 100vw;
             height: auto;
             display: grid;
