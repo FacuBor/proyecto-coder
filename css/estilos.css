@@ -645,7 +645,7 @@
         #grid__contacto {
             background-color: #575757;
             grid-template-columns: 310px;
-            grid-template-rows: 545px;
+            grid-template-rows: 500px;
             grid-template-areas:
             "fieldset";
             justify-content: center;
@@ -655,102 +655,31 @@
             background: linear-gradient(180deg, rgba(83,83,83,1) 11%, rgba(208,208,208,1) 97%, rgba(255,255,255,1) 100%);
             display: grid;
         }
-        .contacto__fieldset {
-            border: none;
-            border-radius: 10px;  
+        
+        .fieldset{
             grid-area: fieldset;
-            display: grid;
-            grid-template-columns: 300px;
-            grid-template-rows: 30px 25px 30px 25px 30px 25px 30px 150px 60px ;
-            grid-template-areas: 
-            "contactoTitulo"
-            "nombretext"
-            "nombreinput"
-            "emailtext"
-            "emailinput"
-            "telefonotext"
-            "telefonoinput"
-            "textarea"
-            "enviarbuton";
+            display: flex;
+            flex-direction: column;
             justify-content: center;
-            grid-row-gap: 5px;    
-            padding-top: 10px;
-            background-color: #646464;
+            padding: 5px;
+            width: auto;
+            height: auto;
+            border: 0.5px solid #BBB9B9;
+            border-radius: 5px;
+            padding-top: 15px;
+            padding-bottom: 10px;
         }
         .contacto__titulo {
             font-family: 'Catamaran', sans-serif;
             font-weight: bold;
             color: #6D0000;
-            grid-area: contactoTitulo;
             justify-self: center;
             align-self: center;
             font-size: 19px;
         }
-        .contacto__nombre__text {
-            font-size: 14px;
-            font-weight: bold;
-            color: #363434;
-            grid-area: nombretext;
-            align-self: flex-end;
-            margin-left: 20px;
-            font-family: 'Catamaran', sans-serif;
-        }
-        .contacto__nombre__input {
-            width: 260px;
-            border: none;  
-            grid-area: nombreinput;
-            justify-self: center;
-            border-radius: 0px 0px 15px 0px;
-        }
-        .contacto__email_text {
-            font-size: 14px;
-            grid-area: emailtext;
-            font-weight: bold;
-            color: #363434;
-            align-self: flex-end;
-            margin-left: 20px;
-            font-family: 'Catamaran', sans-serif;
-        }
-        .contacto__email_input {
-            width: 260px;
-            border: none;
-            grid-area: emailinput;
-            justify-self: center;
-            border-radius: 0px 0px 15px 0px;
-        }
-        .contacto__telefono__text {
-            font-size: 14px;
-            grid-area: telefonotext;
-            font-weight: bold;
-            color: #363434;
-            align-self: flex-end;
-            margin-left: 20px;
-            font-family: 'Catamaran', sans-serif;
-        }
-        .contacto__telefono__input {
-            border-radius: 0px 0px 15px 0px;
-            border: none;
-            grid-area: telefonoinput;
-            justify-self: center;
-            width: 260px;
-        }
-        .contacto__textarea {
-            border-radius: 0px 0px 20px 0px;
-            justify-self: center;
-            align-self: flex-end;
-            width: 260px;
-            height: 140px;
-            margin-top: 5px;
-            grid-area: textarea;
-        }
-        .contacto__enviar__buton {
-            width: 80px;
-            border-radius: 5px;
-            border: 1px solid #6D0000; 
-            grid-area: enviarbuton;  
-            justify-self: center;
-            align-self: flex-end;
-            height: 30px;
+        .butonEnviar {
+            width: 100px;
+            align-self: center;
         }
     }
 
@@ -1372,110 +1301,36 @@
         #grid__contacto {
             background-color: #575757;
             display: grid;
-            grid-template-columns: 410px;
+            grid-template-columns: 450px;
             grid-template-rows: 645px;
             grid-template-areas:
             "fieldset";
             justify-content: center;
             align-items: center;
             padding-top: 90px;
-            background: rgb(83,83,83);
             background: linear-gradient(180deg, rgba(83,83,83,1) 11%, rgba(208,208,208,1) 97%, rgba(255,255,255,1) 100%);
         }
-        .contacto__fieldset {
-            border: none;
-            background-color: #646464;
-            border-radius: 10px;  
+        .fieldset{
             grid-area: fieldset;
-            display: grid;
-            grid-template-columns: 300px;
-            grid-template-rows: 30px 25px 35px 25px 35px 25px 35px 150px 60px ;
-            grid-template-areas: 
-            "contactoTitulo"
-            "nombretext"
-            "nombreinput"
-            "emailtext"
-            "emailinput"
-            "telefonotext"
-            "telefonoinput"
-            "textarea"
-            "enviarbuton";
+            display: flex;
+            flex-direction: column;
             justify-content: center;
-            grid-row-gap: 10px;
-            padding-top: 25px;
+            border: 0.5px solid #BBB9B9;
+            border-radius: 5px;
+            padding-top: 15px;
+            padding-bottom: 10px;
         }
         .contacto__titulo {
             font-family: 'Catamaran', sans-serif;
-            font-size: 23px;
             font-weight: bold;
             color: #6D0000;
-            grid-area: contactoTitulo;
             justify-self: center;
             align-self: center;
+            font-size: 23px;
         }
-        .contacto__nombre__text {
-            font-size: 16px;
-            font-family: 'Catamaran', sans-serif;
-            font-weight: bold;
-            color: #363434;
-            grid-area: nombretext;
-            align-self: flex-end;
-            margin-left: 10px;
-        }
-        .contacto__nombre__input {
-            width: 280px;
-            border-radius: 0px 0px 15px 0px;
-            border: none;  
-            grid-area: nombreinput;
-            justify-self: center;
-        }
-        .contacto__email_text {
-            font-size: 16px;
-            font-family: 'Catamaran', sans-serif;
-            grid-area: emailtext;
-            font-weight: bold;
-            color: #363434;
-            align-self: flex-end;
-            margin-left: 10px;
-        }
-        .contacto__email_input {
-            width: 280px;
-            border-radius: 0px 0px 15px 0px;
-            border: none;
-            grid-area: emailinput;
-            justify-self: center;
-        }
-        .contacto__telefono__text {
-            font-size: 16px;
-            font-family: 'Catamaran', sans-serif;
-            grid-area: telefonotext;
-            font-weight: bold;
-            color: #363434;
-            align-self: flex-end;
-            margin-left: 10px;
-        }
-        .contacto__telefono__input {
-            border-radius: 0px 0px 15px 0px;
-            width: 280px;
-            border: none;
-            grid-area: telefonoinput;
-            justify-self: center;
-        }
-        .contacto__textarea {
-            border-radius: 0px 0px 20px 0px;
-            grid-area: textarea;
-            justify-self: center;
-            width: 280px;
-            margin-top: 5px;
-        }
-        .contacto__enviar__buton {
-            width: 80px;
-            height: 30px;
-            border-radius: 5px;
-            border: 1px solid #6D0000; 
-            grid-area: enviarbuton;  
-            justify-self: center;
-            align-self: flex-end;
+        .butonEnviar {
+            width: 150px;
+            align-self: center;
         }
     } 
  
@@ -2098,8 +1953,8 @@
         #grid__contacto {
             background-color: #575757;
             display: grid;
-            grid-template-columns: 610px;
-            grid-template-rows: 745px;
+            grid-template-columns: 550px;
+            grid-template-rows: 645px;
             grid-template-areas:
              "fieldset";
             justify-content: center;
@@ -2108,102 +1963,27 @@
             background: rgb(83,83,83);
             background: linear-gradient(180deg, rgba(83,83,83,1) 11%, rgba(208,208,208,1) 97%, rgba(255,255,255,1) 100%);
         }
-        .contacto__fieldset {
-            border: none;
-            background-color: #646464;
-            border-radius: 10px;  
+        .fieldset{
             grid-area: fieldset;
-            display: grid;
-            grid-template-columns: 400px;
-            grid-template-rows: 30px 25px 35px 25px 35px 25px 35px 180px 60px ;
-            grid-template-areas: 
-            "contactoTitulo"
-            "nombretext"
-            "nombreinput"
-            "emailtext"
-            "emailinput"
-            "telefonotext"
-            "telefonoinput"
-            "textarea"
-            "enviarbuton";
+            display: flex;
+            flex-direction: column;
             justify-content: center;
-            grid-row-gap: 10px;
-            padding-top: 25px;
+            border: 0.5px solid #BBB9B9;
+            border-radius: 5px;
+            padding-top: 20px;
+            padding-bottom: 20px;
         }
         .contacto__titulo {
             font-family: 'Catamaran', sans-serif;
-            font-size: 26px;
             font-weight: bold;
             color: #6D0000;
-            grid-area: contactoTitulo;
             justify-self: center;
             align-self: center;
+            font-size: 26px;
         }
-        .contacto__nombre__text {
-            font-size: 18px;
-            font-family: 'Catamaran', sans-serif;
-            font-weight: bold;
-            color: #363434;
-            grid-area: nombretext;
-            align-self: flex-end;
-            margin-left: 40px;
-        }
-        .contacto__nombre__input {
-            width: 320px;
-            border-radius: 0px 0px 15px 0px;
-            border: none;  
-            grid-area: nombreinput;
-            justify-self: center;
-        }
-        .contacto__email_text {
-            font-size: 18px;
-            font-family: 'Catamaran', sans-serif;
-            grid-area: emailtext;
-            font-weight: bold;
-            color: #363434;
-            align-self: flex-end;
-            margin-left: 40px;
-        }
-        .contacto__email_input {
-            width: 320px;
-            border-radius: 0px 0px 15px 0px;
-            border: none;
-            grid-area: emailinput;
-            justify-self: center;
-        }
-        .contacto__telefono__text {
-            font-size: 18px;
-            font-family: 'Catamaran', sans-serif;
-            grid-area: telefonotext;
-            font-weight: bold;
-            color: #363434;
-            align-self: flex-end;
-            margin-left: 40px;
-        }
-        .contacto__telefono__input {
-            border-radius: 0px 0px 15px 0px;
-            width: 320px;
-            border: none;
-            grid-area: telefonoinput;
-            justify-self: center;
-        }
-        .contacto__textarea {
-            border-radius: 0px 0px 20px 0px;
-            grid-area: textarea;
-            justify-self: center;
-            align-self: flex-end;
-            width: 320px;
-            height: 160px;
-            margin-top: 5px;
-        }
-        .contacto__enviar__buton {
-            width: 90px;
-            height: 40px;
-            border-radius: 5px;
-            border: 1px solid #6D0000; 
-            grid-area: enviarbuton;  
-            justify-self: center;
-            align-self: flex-end;
+        .butonEnviar {
+            width: 150px;
+            align-self: center;
         }
     }
     
