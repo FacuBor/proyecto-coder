@@ -1220,7 +1220,7 @@
         header {
             background: #9E9E9E;
             border-radius: 0px 0px 10px 10px;
-            width:100vw;
+            width:auto;
         }
         body {
             background: rgb(83,83,83);
@@ -1247,7 +1247,7 @@
         }
         /* Inicio-index*/
         #indexGrid__box {
-            width: 100vw;
+            width: auto;
             height: auto;  
             z-index: 1;
             display: grid;
@@ -1403,7 +1403,7 @@
         
         /* galeria */
         #grid__galeria__box {
-            width: 100vw;
+            width: auto;
             height: auto;
             display: grid;
             grid-template-columns: 1000px;
