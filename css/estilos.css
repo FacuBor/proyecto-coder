@@ -1,6 +1,6 @@
 * {
     padding: 0;
-    margin: 0;    
+    margin: 0;  
 }
 
 @font-face {
@@ -1225,6 +1225,7 @@
         body {
             background: rgb(83,83,83);
             background: linear-gradient(180deg, rgba(83,83,83,1) 11%, rgba(208,208,208,1) 97%, rgba(255,255,255,1) 100%);
+            width: auto;
         }
         .navcustom {
             margin-bottom: 10px;
@@ -1400,7 +1401,6 @@
         .empresaParrafo {
             font-size: 22px;
         }
-        
         /* galeria */
         #grid__galeria__box {
             width: auto;
