@@ -992,6 +992,8 @@
     display: none; }
   .link-color {
     color: #6D0000; }
+    .link-color:hover {
+      color: #000; }
   .navdesktop {
     margin-right: 50px; }
   /* Inicio-index*/
@@ -1090,8 +1092,7 @@
     font-size: 14px; }
   /* empresa*/
   .grid__empresa__box {
-    padding-top: 105px;
-    padding-bottom: 25px;
+    margin-top: 80px;
     height: 100vh; }
   /* empresa-quienes somos*/
   .quienesSomos__box {

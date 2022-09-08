@@ -9,11 +9,12 @@
     font-family: url(../fonts/Libre_Franklin/LibreFranklin-Italic-VariableFont_wght.ttf);
 }
 
-
+@import "../scss/fontstype.scss" ;
+@import "../scss/colors.scss" ;
 
 /*mobile*/
  
-@media (min-width: 320px) and (max-width: 768px) {
+@media  (min-width: 320px) and (max-width: 768px) {
         body {
             background: rgb(83,83,83);
             background: linear-gradient(180deg, rgba(83,83,83,1) 11%, rgba(208,208,208,1) 97%, rgba(255,255,255,1) 100%);
@@ -1241,6 +1242,9 @@
         }
         .link-color{
             color: #6D0000;
+            &:hover{
+                color: #000;
+            }
         }
         .navdesktop {
             margin-right: 50px;
@@ -1360,8 +1364,7 @@
         }
         /* empresa*/
         .grid__empresa__box {
-            padding-top: 105px;
-            padding-bottom: 25px;
+            margin-top: 80px;
             height: 100vh;
         }
         /* empresa-quienes somos*/
