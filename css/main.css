@@ -826,7 +826,6 @@
   .quienesSomos__box {
     background-color: #9E9E9E;
     border-radius: 5px 5px 5px 5px;
-    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -835,16 +834,14 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    padding: 20px; }
+    justify-content: center; }
   .quienessomosimg {
     width: 300px; }
   .card-2 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    padding: 20px; }
+    justify-content: center; }
   .quehacemosimg {
     width: 300px; }
   .empresaTitulos {
