@@ -13,7 +13,8 @@
     display: initial;
     border-radius: 0px 0px 10px 10px;
     background: #9E9E9E;
-    padding: 5px; }
+    padding: 5px;
+    width: auto; }
   .nav {
     display: none; }
   .img {
@@ -22,25 +23,22 @@
     height: 50px;
     margin-bottom: 5px;
     margin-left: 25px; }
-  .butonNav {
-    margin-right: 15px; }
   /* Inicio-index*/
   #indexGrid__box {
-    width: 100vw;
     height: auto;
     z-index: 1;
     display: grid;
     grid-template-columns: 320px;
-    grid-template-rows: 250px 300px 200px;
+    grid-template-rows: 180px 300px 200px;
     grid-template-areas: "section" "imagen" "logos";
     justify-content: center;
     grid-row-gap: 15px;
-    padding-bottom: 45px; }
+    padding-bottom: 45px;
+    padding-top: 75px; }
   .section__box {
     color: #fff;
     background-color: #9E9E9E;
     grid-area: section;
-    margin-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -55,8 +53,6 @@
     font-size: 17px;
     font-family: "Montserrat"; }
   .imagenpapel_box {
-    display: flex;
-    flex-wrap: nowrap;
     background-image: url(../galeria/krys-amon-vn8Falk7JbU-unsplash.jpg);
     background-position: cover;
     background-size: 400px 300px;
@@ -64,8 +60,6 @@
     grid-area: imagen; }
   .logosinicio__box {
     background-color: #9E9E9E;
-    width: auto;
-    height: auto;
     border-radius: 5px 5px 5px 5px;
     grid-area: logos;
     display: flex;
@@ -88,8 +82,8 @@
     margin-right: 25px; }
   .footer__box {
     background-color: #6D0000;
-    width: 100vw;
     height: auto;
+    width: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -101,7 +95,7 @@
     color: #fff;
     font-family: "Montserrat";
     font-size: 16px;
-    margin-left: 15px; }
+    text-align: center; }
   .redesSociales {
     display: flex;
     flex-direction: column;
@@ -119,13 +113,12 @@
     font-size: 15px; }
   /* empresa*/
   .grid__empresa__box {
-    margin-top: 100px;
-    padding-bottom: 15px; }
+    margin-top: 90px; }
   /* empresa-quienes somos*/
   .quienesSomos__box {
     background-color: #9E9E9E;
     border-radius: 5px 5px 5px 5px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -153,10 +146,9 @@
     font-family: "Source Sans Pro" "sans-serif"; }
   /* galeria */
   #grid__galeria__box {
-    width: 100vw;
     display: grid;
     grid-template-columns: 320px;
-    grid-template-rows: 260px 420px;
+    grid-template-rows: 260px 440px;
     grid-template-areas: "imagenes" "videos";
     grid-row-gap: 15px;
     z-index: 2;
@@ -168,8 +160,6 @@
   .section__img__box {
     background-color: #9E9E9E;
     border-radius: 5px;
-    width: auto;
-    height: auto;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -325,9 +315,7 @@
     display: grid;
     justify-content: center;
     align-items: center;
-    padding-top: 80px;
-    background: #535353;
-    background: linear-gradient(180deg, #535353 11%, #d0d0d0 97%, white 100%); }
+    padding-top: 80px; }
   .fieldset {
     grid-area: fieldset;
     display: flex;
@@ -362,7 +350,8 @@
     display: initial;
     border-radius: 0px 0px 10px 10px;
     background: #9E9E9E;
-    padding: 0px; }
+    padding: 0px;
+    width: auto; }
   .nav {
     display: none; }
   .img {
@@ -371,16 +360,12 @@
     height: 65px;
     margin-bottom: 5px;
     margin-left: 25px; }
-  .butonNav {
-    margin-right: 20px; }
   /* Inicio-index*/
   #indexGrid__box {
-    background: #535353;
-    background: linear-gradient(180deg, #535353 11%, #d0d0d0 97%, white 100%);
     height: auto;
     z-index: 1;
     display: grid;
-    grid-template-columns: 720px;
+    grid-template-columns: 700px;
     grid-template-rows: 300px 400px 200px;
     grid-template-areas: "section" "imagen" "logos";
     justify-content: center;
@@ -405,8 +390,6 @@
     font-size: 35px;
     font-family: "Montserrat"; }
   .imagenpapel_box {
-    display: flex;
-    flex-wrap: nowrap;
     background-image: url(../galeria/krys-amon-vn8Falk7JbU-unsplash.jpg);
     background-position: cover;
     background-size: 720px 400px;
@@ -414,8 +397,6 @@
     grid-area: imagen; }
   .logosinicio__box {
     background-color: #9E9E9E;
-    width: auto;
-    height: auto;
     border-radius: 5px 5px 5px 5px;
     grid-area: logos;
     display: flex;
@@ -436,21 +417,20 @@
     align-self: center; }
   .footer__box {
     background-color: #6D0000;
-    width: 100vw;
+    width: auto;
     height: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     z-index: 9999;
-    margin-top: 10px;
     padding-top: 15px;
     padding-bottom: 15px; }
   .footer__rubro {
     color: #fff;
     font-family: "Montserrat";
     font-size: 22px;
-    margin-left: 15px; }
+    text-align: center; }
   .redesSociales {
     display: flex;
     flex-direction: column;
@@ -468,13 +448,12 @@
     font-size: 14px; }
   /* empresa*/
   .grid__empresa__box {
-    margin-top: 125px;
-    padding-bottom: 25px; }
+    margin-top: 90px; }
   /* empresa-quienes somos*/
   .quienesSomos__box {
     background-color: #9E9E9E;
     border-radius: 5px 5px 5px 5px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -503,8 +482,6 @@
     font-family: "Source Sans Pro" "sans-serif"; }
   /* galeria */
   #grid__galeria__box {
-    background: #535353;
-    background: linear-gradient(180deg, #535353 11%, #d0d0d0 97%, white 100%);
     height: auto;
     display: grid;
     grid-template-columns: 700px;
@@ -513,16 +490,13 @@
     grid-row-gap: 15px;
     z-index: 2;
     justify-content: center;
-    padding-top: 100px;
-    padding-bottom: 15px;
-    width: 100vw; }
+    margin-top: 100px;
+    padding-bottom: 15px; }
   /* galeria-Imagenes */
   .section__img__box {
     background-color: #9E9E9E;
     border-radius: 5px;
     grid-area: imagenes;
-    width: auto;
-    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -767,8 +741,6 @@
     grid-area: imagen; }
   .logosinicio__box {
     background-color: #9E9E9E;
-    width: auto;
-    height: auto;
     border-radius: 5px 5px 5px 5px;
     grid-area: logos;
     display: flex;
@@ -801,8 +773,7 @@
   .footer__rubro {
     color: #fff;
     font-family: "Montserrat";
-    font-size: 24px;
-    margin-left: 15px; }
+    font-size: 24px; }
   .redesSociales {
     display: flex;
     flex-direction: column;
@@ -820,8 +791,10 @@
     font-size: 14px; }
   /* empresa*/
   .grid__empresa__box {
-    margin-top: 90px;
-    height: 100vh; }
+    margin-top: 95px;
+    height: 100vh;
+    display: flex;
+    justify-content: center; }
   /* empresa-quienes somos*/
   .quienesSomos__box {
     background-color: #9E9E9E;
@@ -841,7 +814,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    padding-left: 10px; }
   .quehacemosimg {
     width: 300px; }
   .empresaTitulos {
@@ -852,7 +826,6 @@
     font-family: "Source Sans Pro" "sans-serif"; }
   /* galeria */
   #grid__galeria__box {
-    width: auto;
     height: auto;
     display: grid;
     grid-template-columns: 1000px;
@@ -868,8 +841,6 @@
     background-color: #9E9E9E;
     border-radius: 5px;
     grid-area: imagenes;
-    width: auto;
-    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -927,14 +898,12 @@
   #grid__tecnica {
     display: grid;
     grid-template-columns: 1100px;
-    grid-template-rows: 45px 830px 680px 700px 550px;
+    grid-template-rows: 45px 810px 680px 700px 550px;
     grid-template-areas: "tituloTecnico" "sonido" "iluminacion" "escenario" "pantallaLed";
     grid-row-gap: 15px;
     padding-top: 120px;
     padding-bottom: 20px;
-    justify-content: center;
-    background: #535353;
-    background: linear-gradient(180deg, #535353 11%, #d0d0d0 97%, white 100%); }
+    justify-content: center; }
   .tecnica__titulo {
     font-family: "Montserrat";
     font-size: 33px;
@@ -1034,9 +1003,7 @@
     grid-template-areas: "fieldset";
     justify-content: center;
     align-items: center;
-    padding-top: 90px;
-    background: #535353;
-    background: linear-gradient(180deg, #535353 11%, #d0d0d0 97%, white 100%); }
+    padding-top: 90px; }
   .fieldset {
     grid-area: fieldset;
     display: flex;
