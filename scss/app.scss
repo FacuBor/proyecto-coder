@@ -2,9 +2,7 @@
     padding: 0;
     margin: 0;    
 }
-
-@import "../scss/typography.scss" ;
-@import "../scss/colors.scss" ;
+@import "./variables";
 
 /*mobile*/
 @media  (min-width: 320px) and (max-width: 768px) {
@@ -15,7 +13,7 @@
         .navhambur {
             display: initial;
             border-radius: 0px 0px 10px 10px;
-            background: #9E9E9E;
+            background: $primary-color;
             padding: 5px;
             width: auto;
         }
@@ -48,7 +46,7 @@
         }
         .section__box {
             color: #fff;
-            background-color: #9E9E9E;
+            background-color: $primary-color;
             grid-area: section; 
             display: flex;
             flex-direction: column;
@@ -59,11 +57,11 @@
         }
         .section__text {
             font-family: $secondary-typography;
-            font-size: 18px;  
-            color: #6D0000;       
+            font-size: map-get($font-sz, s);  
+            color: $secondary-color;       
         }
         .section__titulo {
-            font-size:17px;
+            font-size:map-get($font-sz, s);
             font-family:$primary-typography;
         }
         .imagenpapel_box {
@@ -74,7 +72,7 @@
             grid-area: imagen;
         }
         .logosinicio__box {
-            background-color: #9E9E9E;
+            background-color: $primary-color;
             border-radius: 5px 5px 5px 5px; 
             grid-area: logos;
             display: flex;
@@ -101,7 +99,7 @@
             margin-right: 25px; 
         }
         .footer__box {
-            background-color: #6D0000;
+            background-color: $secondary-color;
             height: auto;
             width: auto;
             display: flex;
@@ -115,7 +113,7 @@
         .footer__rubro {
             color: #fff;
             font-family:$primary-typography;
-            font-size: 16px;
+            font-size: map-get($font-sz ,xs);
             text-align: center;
         }
         .redesSociales {
@@ -143,7 +141,7 @@
         }
         /* empresa-quienes somos*/
         .quienesSomos__box {
-            background-color: #9E9E9E;   
+            background-color: $primary-color;   
             border-radius: 5px 5px 5px 5px;
             margin-bottom: 25px;
             display: flex;
@@ -166,16 +164,17 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            padding: 20px;
         }
         .quehacemosimg {
             width: 160px;
         }
         .empresaTitulos {
-            font-size: 17px;
+            font-size: map-get($font-sz, s);
             font-family:$primary-typography;
         }
         .empresaParrafo {
-            font-size: 16px;
+            font-size: map-get($font-sz ,xs);
             font-family: $secondary-typography;
         }
         /* galeria */
@@ -195,7 +194,7 @@
         }
         /* galeria-Imagenes */
         .section__img__box {
-            background-color: #9E9E9E;
+            background-color: $primary-color;
             border-radius: 5px;
             padding: 10px;
             display: flex;
@@ -239,7 +238,7 @@
             "videoTimelapse"
             "videoIframe";
             padding-bottom: 5px;
-            background-color: #9E9E9E;
+            background-color: $primary-color;
         }
         .section__video__titulo {
             font-family:$primary-typography;
@@ -280,7 +279,7 @@
         .tecnica__titulo {
             font-family:$primary-typography;
             font-size: 22px;
-            color: #6D0000;
+            color: $secondary-color;
             grid-area: tituloTecnico;
             justify-self: center;
             align-self: center;
@@ -289,11 +288,11 @@
         .tecnica__sonido__box{
             grid-area: sonido;
             border-radius: 5px;
-            background-color: #9E9E9E;
+            background-color: $primary-color;
         }
         .tecnica__sonido__titulo {
             font-size: 20px;
-            color: #6D0000;
+            color: $secondary-color;
             font-family:$primary-typography;
             align-self: center;
         }
@@ -311,13 +310,13 @@
         }
         /* Tecnica-iluminacion*/
         .tecnica__iluminacion__box {
-            background-color: #9E9E9E;
+            background-color: $primary-color;
             grid-area: iluminacion;
             border-radius: 5px;
         }
         .tecnica__iluminacion__titulo {
             font-family:$primary-typography;
-            color: #6D0000;
+            color: $secondary-color;
             font-size: 20px;
             align-self: center;
         }
@@ -331,14 +330,14 @@
         }
         /* Tecnica-escenario*/
         .plantaEscenario__box {
-            background-color: #9E9E9E;
+            background-color: $primary-color;
             grid-area: escenario;   
             border-radius: 5px;;
         }
         .plantaEscenario__titulo {
             font-family:$primary-typography;
             font-size: 20px;
-            color: #6D0000;
+            color: $secondary-color;
             align-self: center;
         }
         .imgPachera {
@@ -363,7 +362,7 @@
         }
         /* Tecnica-PantallaLed*/
         .pantallaLed__box {
-            background-color: #9E9E9E;
+            background-color: $primary-color;
             grid-area: pantallaLed;
             border-radius: 5px;
         }
@@ -372,7 +371,7 @@
             justify-self: center;
             align-self: center;
             font-size: 20px;
-            color: #6D0000;
+            color: $secondary-color;
         }
         .pantallaLed__imagen {
             width: 280px;
@@ -412,7 +411,7 @@
         .contacto__titulo {
             font-family:$primary-typography;
             font-weight: bold;
-            color: #6D0000;
+            color: $secondary-color;
             justify-self: center;
             align-self: center;
             font-size: 19px;
@@ -432,7 +431,7 @@
         .navhambur {
             display: initial;
             border-radius: 0px 0px 10px 10px;
-            background: #9E9E9E;
+            background: $primary-color;
             padding: 0px;
             width: auto;
         }
@@ -464,7 +463,7 @@
         }
         .section__box {
             color: #fff;
-            background-color: #9E9E9E;
+            background-color: $primary-color;
             grid-area: section; 
             margin-top: 100px;
             display: flex;
@@ -477,7 +476,7 @@
         .section__text {
             font-family: $secondary-typography;
             font-size: 25px;   
-            color: #6D0000;      
+            color: $secondary-color;      
         }
         .section__titulo {
             font-size:35px;
@@ -491,7 +490,7 @@
             grid-area: imagen;
         }
         .logosinicio__box {
-            background-color: #9E9E9E;
+            background-color: $primary-color;
             border-radius: 5px 5px 5px 5px; 
             grid-area: logos;
             display: flex;
@@ -516,7 +515,7 @@
             align-self: center;
         }
         .footer__box {
-            background-color: #6D0000;
+            background-color: $secondary-color;
             width: auto;
             height: auto;
             display: flex;
@@ -558,7 +557,7 @@
         }
         /* empresa-quienes somos*/
         .quienesSomos__box {
-            background-color: #9E9E9E;   
+            background-color: $primary-color;   
             border-radius: 5px 5px 5px 5px;
             margin-bottom: 25px;
             display: flex;
@@ -611,7 +610,7 @@
         }
         /* galeria-Imagenes */
         .section__img__box {
-            background-color: #9E9E9E;
+            background-color: $primary-color;
             border-radius: 5px;  
             grid-area: imagenes; 
             display: flex;
@@ -644,7 +643,7 @@
         }
         /* galeria-Videos */
         .section__video__box {
-            background-color: #9E9E9E;
+            background-color: $primary-color;
             border-radius: 5px;
             grid-area: videos;
             padding: 10px;
@@ -697,7 +696,7 @@
         .tecnica__titulo {
             font-family:$primary-typography;
             font-size: 28px;
-            color: #6D0000;
+            color: $secondary-color;
             grid-area: tituloTecnico;
             justify-self: center;
             }
@@ -709,7 +708,7 @@
             }
             .tecnica__sonido__titulo {
                 font-size: 28px;
-                color: #6D0000;
+                color: $secondary-color;
                 font-family:$primary-typography;
                 align-self: center;
             }
@@ -727,7 +726,7 @@
             }
             /* Tecnica-iluminacion*/
             .tecnica__iluminacion__box {
-                background-color: #9E9E9E;
+                background-color: $primary-color;
                 grid-area: iluminacion;
                 border-radius: 5px;
             }
@@ -747,14 +746,14 @@
             }
             /* Tecnica-escenario*/
             .plantaEscenario__box {
-                background-color: #9E9E9E;
+                background-color: $primary-color;
                 grid-area: escenario;   
                 border-radius: 5px;;
             }
             .plantaEscenario__titulo {
                 font-family:$primary-typography;
                 font-size: 28px;
-                color: #6D0000;
+                color: $secondary-color;
                 align-self: center;
             }
             .imgPachera {
@@ -779,7 +778,7 @@
             }
             /* Tecnica-PantallaLed*/
             .pantallaLed__box {
-                background-color: #9E9E9E;
+                background-color: $primary-color;
                 grid-area: pantallaLed;
                 border-radius: 5px;
             }
@@ -788,7 +787,7 @@
                 justify-self: center;
                 align-self: center;
                 font-size: 28px;
-                color: #6D0000;
+                color: $secondary-color;
             }
             .pantallaLed__imagen {
                 width: 600px;
@@ -825,7 +824,7 @@
         .contacto__titulo {
             font-family:$primary-typography;
             font-weight: bold;
-            color: #6D0000;
+            color: $secondary-color;
             justify-self: center;
             align-self: center;
             font-size: 23px;
@@ -839,7 +838,7 @@
 /*desktop*/      
 @media (min-width: 1100px) {
         header {
-            background: #9E9E9E;
+            background: $primary-color;
             border-radius: 0px 0px 10px 10px;
             width:auto;
         }
@@ -862,7 +861,7 @@
             display: none;
         }
         .link-color{
-            color: #6D0000;
+            color: $secondary-color;
             font-size: 21px;
             &:hover{
                 color: #000;
@@ -890,7 +889,7 @@
         }
         .section__box {
             color: #fff;
-            background-color: #9E9E9E;
+            background-color: $primary-color;
             grid-area: section; 
             margin-top: 100px;
             display: flex;
@@ -905,9 +904,9 @@
             font-family:$primary-typography;
         }
         .section__text {
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-family: $secondary-typography;
             font-size: 35px; 
-            color: #6D0000;        
+            color: $secondary-color;        
         }
         .imagenpapel_box {
             display: flex;
@@ -919,7 +918,7 @@
             grid-area: imagen;
         }
         .logosinicio__box {
-            background-color: #9E9E9E;
+            background-color: $primary-color;
             border-radius: 5px 5px 5px 5px; 
             grid-area: logos;
             display: flex;
@@ -944,7 +943,7 @@
             align-self: center;
         }
         .footer__box {
-            background-color: #6D0000;
+            background-color: $secondary-color;
             width: auto;
             height: auto;
             display: flex;
@@ -987,7 +986,7 @@
         }
         /* empresa-quienes somos*/
         .quienesSomos__box {
-            background-color: #9E9E9E;   
+            background-color: $primary-color;   
             border-radius: 5px 5px 5px 5px;
             display: flex;
             flex-direction: column;
@@ -1039,7 +1038,7 @@
         }
         /* galeria-Imagenes */
         .section__img__box {
-            background-color: #9E9E9E;
+            background-color: $primary-color;
             border-radius: 5px;  
             grid-area: imagenes; 
             display: flex;
@@ -1074,7 +1073,7 @@
         
         /* galeria-Videos */
         .section__video__box {
-            background-color: #9E9E9E;
+            background-color: $primary-color;
             border-radius: 5px;
             grid-area: videos;
             padding: 10px;
@@ -1135,7 +1134,7 @@
         .tecnica__sonido__box{
             grid-area: sonido;
             border-radius: 5px;
-            background-color: #9E9E9E;
+            background-color: $primary-color;
         }
         .tecnica__sonido__titulo {
             font-size: 30px;
@@ -1156,7 +1155,7 @@
         }
         /* Tecnica-iluminacion*/
         .tecnica__iluminacion__box {
-            background-color: #9E9E9E;
+            background-color: $primary-color;
             grid-area: iluminacion;
             border-radius: 5px;
         }
@@ -1175,7 +1174,7 @@
         }
         /* Tecnica-escenario*/
         .plantaEscenario__box {
-            background-color: #9E9E9E;
+            background-color: $primary-color;
             grid-area: escenario;   
             border-radius: 5px;;
         }
@@ -1207,7 +1206,7 @@
         } 
         /* Tecnica-PantallaLed*/
         .pantallaLed__box {
-            background-color: #9E9E9E;
+            background-color: $primary-color;
             border-radius: 5px;
             grid-area: pantallaLed;
             display: grid;
@@ -1264,7 +1263,7 @@
         .contacto__titulo {
             font-family:$primary-typography;
             font-weight: bold;
-            color: #6D0000;
+            color: $secondary-color;
             justify-self: center;
             align-self: center;
             font-size: 26px;

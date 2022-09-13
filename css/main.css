@@ -4,6 +4,9 @@
   padding: 0;
   margin: 0; }
 
+/*typography*/
+/*colors*/
+/*font-size*/
 /*mobile*/
 @media (min-width: 320px) and (max-width: 768px) {
   body {
@@ -47,7 +50,7 @@
     border-radius: 5px 5px 5px 5px; }
   .section__text {
     font-family: "Source Sans Pro" "sans-serif";
-    font-size: 18px;
+    font-size: 17px;
     color: #6D0000; }
   .section__titulo {
     font-size: 17px;
@@ -94,7 +97,7 @@
   .footer__rubro {
     color: #fff;
     font-family: "Montserrat";
-    font-size: 16px;
+    font-size: 15px;
     text-align: center; }
   .redesSociales {
     display: flex;
@@ -135,14 +138,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    padding: 20px; }
   .quehacemosimg {
     width: 160px; }
   .empresaTitulos {
     font-size: 17px;
     font-family: "Montserrat"; }
   .empresaParrafo {
-    font-size: 16px;
+    font-size: 15px;
     font-family: "Source Sans Pro" "sans-serif"; }
   /* galeria */
   #grid__galeria__box {
@@ -728,7 +732,7 @@
     font-size: 55px;
     font-family: "Montserrat"; }
   .section__text {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Source Sans Pro" "sans-serif";
     font-size: 35px;
     color: #6D0000; }
   .imagenpapel_box {
