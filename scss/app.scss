@@ -123,19 +123,18 @@
             flex-direction: column;
             justify-content: space-evenly;
             align-items: center;
+            margin-right: 10px;
         }
         .footer__titulo {
             color: #fff;
             font-family:$primary-typography;
-            font-size: 15px;
+            font-size: 14px;
         }
-        .footer__insta {
-            color: #fff;
-            font-size: 15px;
+        .footer__insta__logo {
+            width: 20px;
         }
-        .footer__face {
-            color: #fff;
-            font-size: 15px;
+        .footer__face__logo {
+            width: 35px;
         }
         /* empresa*/
         .grid__empresa__box {
@@ -206,7 +205,7 @@
         .section__img__titulo {
             font-family:$primary-typography;
             color: #575757;
-            font-size: 22px;
+            font-size: 18px;
             display: flex;
             justify-content: center;
         }
@@ -233,7 +232,7 @@
             padding: 10px 10px 0px 10px;
             display: grid;
             grid-template-columns: 310px;
-            grid-template-rows: 50px 200px 200px;
+            grid-template-rows: 35px 200px 200px;
             grid-template-areas: 
             "videoTitulo"
             "videoTimelapse"
@@ -248,7 +247,7 @@
             justify-self: center;
             align-self: center;
             margin-right: 20px;
-            font-size: 22px;
+            font-size: 18px;
         }
         .section__video__timelapse {
             background-color: #575757; 
@@ -538,19 +537,18 @@
             flex-direction: column;
             justify-content: space-evenly;
             align-items: center;
+            margin-right: 10px;
         }
         .footer__titulo {
             color: #fff;
             font-family:$primary-typography;
             font-size: 15px;
         }
-        .footer__insta {
-            color: #fff;
-            font-size: 14px;
+        .footer__insta__logo {
+            width: 25px;
         }
-        .footer__face {
-            color: #fff;
-            font-size: 14px;
+        .footer__face__logo {
+            width: 40px;
         }
          /* empresa*/
          .grid__empresa__box {
@@ -621,7 +619,7 @@
         }
         .section__img__titulo {
             font-family:$primary-typography;
-            font-size: 30px;
+            font-size: 25px;
             color: #575757;
             display: flex;
             justify-content: center;
@@ -651,7 +649,7 @@
             display: grid;
             grid-row-gap: 10px;
             grid-template-columns: 680px;
-            grid-template-rows: 50px 320px 320px;
+            grid-template-rows: 45px 320px 320px;
             grid-template-areas: 
             "videoTitulo"
             "videoTimelapse"
@@ -659,7 +657,7 @@
         }
         .section__video__titulo {
             font-family:$primary-typography;
-            font-size: 30px;
+            font-size: 25px;
             color: #575757;
             grid-area: videoTitulo;
             justify-self: center;
@@ -969,15 +967,13 @@
         .footer__titulo {
             color: #fff;
             font-family:$primary-typography;
-            font-size: 15px;
+            font-size: 16px;
         }
-        .footer__insta {
-            color: #fff;
-            font-size: 14px;
+        .footer__insta__logo {
+            width: 30px;
         }
-        .footer__face {
-            color: #fff;
-            font-size: 14px;
+        .footer__face__logo {
+            width: 45px;
         }
         /* empresa*/
         .grid__empresa__box {
@@ -1082,7 +1078,7 @@
             display: grid;
             grid-row-gap: 10px;
             grid-template-columns: 950px;
-            grid-template-rows: 50px 420px 420px;
+            grid-template-rows: 60px 420px 420px;
             grid-template-areas: 
             "videoTitulo"
             "videoTimelapse"
