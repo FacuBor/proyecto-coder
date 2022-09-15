@@ -8,7 +8,7 @@
 /*colors*/
 /*font-size*/
 /*mobile*/
-@media (min-width: 320px) and (max-width: 768px) {
+@media (max-width: 768px) {
   body {
     background: #535353;
     background: linear-gradient(180deg, #535353 11%, #d0d0d0 97%, white 100%); }
@@ -27,63 +27,20 @@
     margin-bottom: 5px;
     margin-left: 25px; }
   /* Inicio-index*/
-  #indexGrid__box {
-    height: auto;
-    z-index: 1;
-    display: grid;
-    grid-template-columns: 320px;
-    grid-template-rows: 180px 300px 200px;
-    grid-template-areas: "section" "imagen" "logos";
-    justify-content: center;
-    grid-row-gap: 15px;
-    padding-bottom: 45px;
-    padding-top: 75px; }
-  .section__box {
-    color: #fff;
-    background-color: #9E9E9E;
-    grid-area: section;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: center;
-    border-radius: 5px 5px 5px 5px; }
-  .section__text {
+  .index__container {
+    background: #535353;
+    background: linear-gradient(180deg, #535353 11%, #d0d0d0 97%, white 100%); }
+  .row__index {
+    padding-top: 80px; }
+  .rowTitulo {
+    border-radius: 5px 5px 5px 5px;
+    background-color: #9E9E9E; }
+  .index__titulo {
+    font-family: "Montserrat";
+    font-size: 17px; }
+  .index__subTitulo {
     font-family: "Source Sans Pro" "sans-serif";
-    font-size: 17px;
     color: #6D0000; }
-  .section__titulo {
-    font-size: 17px;
-    font-family: "Montserrat"; }
-  .imagenpapel_box {
-    grid-area: imagen; }
-  .img__fiesta {
-    width: 320px;
-    height: 300px;
-    border-radius: 5px 5px 5px 5px;
-    object-fit: fill; }
-  .logosinicio__box {
-    background-color: #9E9E9E;
-    border-radius: 5px 5px 5px 5px;
-    grid-area: logos;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: space-between; }
-  .logos__yamaha {
-    height: 65px; }
-  .logos__allen {
-    height: 18px;
-    align-self: center;
-    margin-bottom: 15px; }
-  .logos__beringer {
-    height: 100px;
-    margin-top: 15px; }
-  .logos__shure {
-    height: 35px;
-    align-self: center;
-    margin-right: 25px; }
   .footer__box {
     background-color: #6D0000;
     height: auto;
@@ -347,7 +304,7 @@
     align-self: center; } }
 
 /*tablet*/
-@media (min-width: 768px) and (max-width: 1100px) {
+@media (min-width: 768px) and (max-width: 1200px) {
   body {
     background: #535353;
     background: linear-gradient(180deg, #535353 11%, #d0d0d0 97%, white 100%); }
@@ -366,61 +323,21 @@
     margin-bottom: 5px;
     margin-left: 25px; }
   /* Inicio-index*/
-  #indexGrid__box {
-    height: auto;
-    z-index: 1;
-    display: grid;
-    grid-template-columns: 700px;
-    grid-template-rows: 300px 400px 200px;
-    grid-template-areas: "section" "imagen" "logos";
-    justify-content: center;
-    grid-row-gap: 15px;
-    padding-bottom: 45px; }
-  .section__box {
-    color: #fff;
-    background-color: #9E9E9E;
-    grid-area: section;
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: center;
-    border-radius: 5px 5px 5px 5px; }
-  .section__text {
+  .index__container {
+    background: #535353;
+    background: linear-gradient(180deg, #535353 11%, #d0d0d0 97%, white 100%); }
+  .row__index {
+    padding-top: 90px; }
+  .rowTitulo {
+    border-radius: 5px 5px 5px 5px;
+    background-color: #9E9E9E; }
+  .index__titulo {
+    font-family: "Montserrat";
+    font-size: 28px; }
+  .index__subTitulo {
     font-family: "Source Sans Pro" "sans-serif";
-    font-size: 25px;
-    color: #6D0000; }
-  .section__titulo {
-    font-size: 35px;
-    font-family: "Montserrat"; }
-  .imagenpapel_box {
-    grid-area: imagen; }
-  .img__fiesta {
-    width: 700px;
-    height: 400px;
-    border-radius: 5px 5px 5px 5px;
-    object-fit: cover; }
-  .logosinicio__box {
-    background-color: #9E9E9E;
-    border-radius: 5px 5px 5px 5px;
-    grid-area: logos;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center; }
-  .logos__yamaha {
-    height: 75px; }
-  .logos__allen {
-    height: 23px;
-    margin-top: 15px;
-    justify-self: left; }
-  .logos__beringer {
-    height: 130px;
-    justify-self: center; }
-  .logos__shure {
-    height: 40px;
-    align-self: center; }
+    color: #6D0000;
+    font-size: 17px; }
   .footer__box {
     display: flex;
     flex-direction: row;
@@ -681,7 +598,7 @@
     align-self: center; } }
 
 /*desktop*/
-@media (min-width: 1100px) {
+@media (min-width: 1200px) {
   header {
     background: #9E9E9E;
     border-radius: 0px 0px 10px 10px;
@@ -707,63 +624,21 @@
   .navdesktop {
     margin-right: 50px; }
   /* Inicio-index*/
-  #indexGrid__box {
-    width: auto;
-    height: auto;
-    z-index: 1;
-    display: grid;
-    grid-template-columns: 1100px;
-    grid-template-rows: 400px 600px 270px;
-    grid-template-areas: "section" "imagen" "logos";
-    justify-content: center;
-    grid-row-gap: 15px;
-    padding-bottom: 40px;
-    padding-top: 35px; }
-  .section__box {
-    color: #fff;
-    background-color: #9E9E9E;
-    grid-area: section;
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: center;
-    border-radius: 5px 5px 5px 5px; }
-  .section__titulo {
-    font-size: 55px;
-    font-family: "Montserrat"; }
-  .section__text {
+  .index__container {
+    background: #535353;
+    background: linear-gradient(180deg, #535353 11%, #d0d0d0 97%, white 100%); }
+  .row__index {
+    padding-top: 100px; }
+  .rowTitulo {
+    border-radius: 5px 5px 5px 5px;
+    background-color: #9E9E9E; }
+  .index__titulo {
+    font-family: "Montserrat";
+    font-size: 36px; }
+  .index__subTitulo {
     font-family: "Source Sans Pro" "sans-serif";
-    font-size: 35px;
-    color: #6D0000; }
-  .imagenpapel_box {
-    grid-area: imagen; }
-  .img__fiesta {
-    height: 600px;
-    width: 1100px;
-    border-radius: 5px 5px 5px 5px;
-    object-fit: cover; }
-  .logosinicio__box {
-    background-color: #9E9E9E;
-    border-radius: 5px 5px 5px 5px;
-    grid-area: logos;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center; }
-  .logos__yamaha {
-    height: 95px; }
-  .logos__allen {
-    height: 32px;
-    margin-top: 15px;
-    justify-self: left; }
-  .logos__beringer {
-    height: 160px;
-    justify-self: center; }
-  .logos__shure {
-    height: 50px;
-    align-self: center; }
+    color: #6D0000;
+    font-size: 32px; }
   .footer__box {
     background-color: #6D0000;
     width: auto;

@@ -5,7 +5,7 @@
 @import "./variables";
 
 /*mobile*/
-@media  (min-width: 320px) and (max-width: 768px) {
+@media (max-width: 768px) {
         body {
             background: rgb(83,83,83);
             background: linear-gradient(180deg, rgba(83,83,83,1) 11%, rgba(208,208,208,1) 97%, rgba(255,255,255,1) 100%);
@@ -29,76 +29,25 @@
             margin-left: 25px;
         }
         /* Inicio-index*/
-        #indexGrid__box {
-            height: auto;  
-            z-index: 1;
-            display: grid;
-            grid-template-columns: 320px;
-            grid-template-rows: 180px 300px 200px;
-            grid-template-areas: 
-            "section"
-            "imagen"
-            "logos";
-            justify-content: center;
-            grid-row-gap:15px;
-            padding-bottom: 45px;
-            padding-top: 75px;
+        .index__container {
+            background: rgb(83,83,83);
+            background: linear-gradient(180deg, rgba(83,83,83,1) 11%, rgba(208,208,208,1) 97%, rgba(255,255,255,1) 100%);
         }
-        .section__box {
-            color: #fff;
-            background-color: $primary-color;
-            grid-area: section; 
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-            flex-wrap: wrap;
-            align-items: center;
+        .row__index {
+            padding-top: 80px;
+        }
+        .rowTitulo {
             border-radius: 5px 5px 5px 5px;
+            background-color: $primary-color;
+            
         }
-        .section__text {
+        .index__titulo {
+            font-family: $primary-typography; 
+            font-size: map-get($font-sz, s );  
+        }
+        .index__subTitulo {
             font-family: $secondary-typography;
-            font-size: map-get($font-sz, s);  
-            color: $secondary-color;       
-        }
-        .section__titulo {
-            font-size:map-get($font-sz, s);
-            font-family:$primary-typography;
-        }
-        .imagenpapel_box {
-            grid-area: imagen;
-        }
-        .img__fiesta {
-            width: 320px;
-            height: 300px;
-            border-radius: 5px 5px 5px 5px;
-            object-fit: fill;
-        }
-        .logosinicio__box {
-            background-color: $primary-color;
-            border-radius: 5px 5px 5px 5px; 
-            grid-area: logos;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: space-between;
-        }
-        .logos__yamaha {
-            height: 65px;
-        }
-        .logos__allen {
-            height: 18px;
-            align-self: center;
-            margin-bottom: 15px;
-        }
-        .logos__beringer {
-            height: 100px;
-            margin-top: 15px;
-        }
-        .logos__shure {
-            height: 35px;
-            align-self: center;
-            margin-right: 25px; 
+            color: $secondary-color;
         }
         .footer__box {
             background-color: $secondary-color;
@@ -425,7 +374,7 @@
     }
 
 /*tablet*/
-@media (min-width: 768px) and (max-width: 1100px){
+@media (min-width: 768px) and (max-width: 1200px){
         body {
             background: rgb(83,83,83);
             background: linear-gradient(180deg, rgba(83,83,83,1) 11%, rgba(208,208,208,1) 97%, rgba(255,255,255,1) 100%);
@@ -449,74 +398,25 @@
             margin-left: 25px;
         }
         /* Inicio-index*/
-        #indexGrid__box {
-            height: auto;  
-            z-index: 1;
-            display: grid;
-            grid-template-columns: 700px;
-            grid-template-rows: 300px 400px 200px;
-            grid-template-areas: 
-            "section"
-            "imagen"
-            "logos";
-            justify-content: center;
-            grid-row-gap:15px;
-            padding-bottom: 45px;
+        .index__container {
+            background: rgb(83,83,83);
+            background: linear-gradient(180deg, rgba(83,83,83,1) 11%, rgba(208,208,208,1) 97%, rgba(255,255,255,1) 100%);
         }
-        .section__box {
-            color: #fff;
-            background-color: $primary-color;
-            grid-area: section; 
-            margin-top: 100px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-            flex-wrap: wrap;
-            align-items: center;
+        .row__index {
+            padding-top: 90px;
+        }
+        .rowTitulo {
             border-radius: 5px 5px 5px 5px;
+            background-color: $primary-color;
         }
-        .section__text {
+        .index__titulo {
+            font-family: $primary-typography;
+            font-size: map-get($font-sz, l );
+        }
+        .index__subTitulo {
             font-family: $secondary-typography;
-            font-size: 25px;   
-            color: $secondary-color;      
-        }
-        .section__titulo {
-            font-size:35px;
-            font-family:$primary-typography;
-        }
-        .imagenpapel_box {
-            grid-area: imagen;
-        }
-        .img__fiesta {
-            width: 700px;
-            height: 400px;
-            border-radius: 5px 5px 5px 5px;
-            object-fit: cover;
-        }
-        .logosinicio__box {
-            background-color: $primary-color;
-            border-radius: 5px 5px 5px 5px; 
-            grid-area: logos;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-            align-items: center;
-        }
-        .logos__yamaha {
-            height: 75px;
-        }
-        .logos__allen {
-            height: 23px;
-            margin-top: 15px;
-            justify-self: left;
-        }
-        .logos__beringer {
-            height: 130px;
-            justify-self: center;
-        }
-        .logos__shure {
-            height: 40px;
-            align-self: center;
+            color: $secondary-color;
+            font-size: map-get($font-sz, s );
         }
         .footer__box {
             @include flexboxRow;
@@ -837,7 +737,7 @@
     } 
     
 /*desktop*/      
-@media (min-width: 1100px) {
+@media (min-width: 1200px) {
         header {
             background: $primary-color;
             border-radius: 0px 0px 10px 10px;
@@ -872,76 +772,25 @@
             margin-right: 50px;
         }
         /* Inicio-index*/
-        #indexGrid__box {
-            width: auto;
-            height: auto;  
-            z-index: 1;
-            display: grid;
-            grid-template-columns: 1100px;
-            grid-template-rows: 400px 600px 270px;
-            grid-template-areas: 
-            "section"
-            "imagen"
-            "logos";
-            justify-content: center;
-            grid-row-gap:15px;
-            padding-bottom: 40px;
-            padding-top: 35px;
+        .index__container {
+            background: rgb(83,83,83);
+            background: linear-gradient(180deg, rgba(83,83,83,1) 11%, rgba(208,208,208,1) 97%, rgba(255,255,255,1) 100%);
         }
-        .section__box {
-            color: #fff;
-            background-color: $primary-color;
-            grid-area: section; 
-            margin-top: 100px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-            flex-wrap: wrap;
-            align-items: center;
+        .row__index {
+            padding-top: 100px;
+        }
+        .rowTitulo {
             border-radius: 5px 5px 5px 5px;
+            background-color: $primary-color;
         }
-        .section__titulo {
-            font-size:55px;
-            font-family:$primary-typography;
+        .index__titulo {
+            font-family: $primary-typography;
+            font-size: map-get($font-sz, xxl );
         }
-        .section__text {
+        .index__subTitulo {
             font-family: $secondary-typography;
-            font-size: 35px; 
-            color: $secondary-color;        
-        }
-        .imagenpapel_box {
-            grid-area: imagen;
-        }
-        .img__fiesta {
-            height: 600px;
-            width: 1100px;
-            border-radius: 5px 5px 5px 5px;
-            object-fit: cover;
-        }
-        .logosinicio__box {
-            background-color: $primary-color;
-            border-radius: 5px 5px 5px 5px; 
-            grid-area: logos;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-            align-items: center;
-        }
-        .logos__yamaha {
-            height: 95px;
-        }
-        .logos__allen {
-            height: 32px;
-            margin-top: 15px;
-            justify-self: left;
-        }
-        .logos__beringer {
-            height: 160px;
-            justify-self: center;
-        }
-        .logos__shure {
-            height: 50px;
-            align-self: center;
+            color: $secondary-color;
+            font-size: map-get($font-sz, xl );
         }
         .footer__box {
             background-color: $secondary-color;
