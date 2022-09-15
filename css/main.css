@@ -699,10 +699,10 @@
     margin-bottom: 5px; }
   .navhambur {
     display: none; }
-  .link-color {
+  .link-color, .contacto__titulo {
     color: #6D0000;
     font-size: 21px; }
-    .link-color:hover {
+    .link-color:hover, .contacto__titulo:hover {
       color: #575757; }
   .navdesktop {
     margin-right: 50px; }
@@ -1021,12 +1021,8 @@
     background-color: #BBB9B9;
     font-family: "Source Sans Pro" "sans-serif"; }
   .contacto__titulo {
-    font-family: "Montserrat";
-    font-weight: bold;
-    color: #6D0000;
     justify-self: center;
-    align-self: center;
-    font-size: 26px; }
+    align-self: center; }
   .butonEnviar {
     width: 150px;
     align-self: center; } }

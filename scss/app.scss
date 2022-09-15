@@ -1260,12 +1260,10 @@
             font-family: $secondary-typography;
         }
         .contacto__titulo {
-            font-family:$primary-typography;
-            font-weight: bold;
-            color: $secondary-color;
+            @extend .link-color;
             justify-self: center;
             align-self: center;
-            font-size: 26px;
+            
         }
         .butonEnviar {
             width: 150px;
