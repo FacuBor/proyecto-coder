@@ -19,3 +19,17 @@ $font-sz: (
     xl:32px,
     xxl:36px
 );
+
+@mixin flexboxRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+};
+
+@mixin flexboxColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
