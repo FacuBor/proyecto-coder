@@ -20,7 +20,7 @@
     width: auto; }
   .nav {
     display: none; }
-  .img {
+  .img__nav {
     display: none; }
   .img-nav-hambur {
     height: 50px;
@@ -56,11 +56,12 @@
     font-size: 17px;
     font-family: "Montserrat"; }
   .imagenpapel_box {
-    background-image: url(../galeria/krys-amon-vn8Falk7JbU-unsplash.jpg);
-    background-position: cover;
-    background-size: 400px 300px;
-    border-radius: 5px 5px 5px 5px;
     grid-area: imagen; }
+  .img__fiesta {
+    width: 320px;
+    height: 300px;
+    border-radius: 5px 5px 5px 5px;
+    object-fit: fill; }
   .logosinicio__box {
     background-color: #9E9E9E;
     border-radius: 5px 5px 5px 5px;
@@ -219,7 +220,7 @@
   #grid__tecnica {
     display: grid;
     grid-template-columns: 320px;
-    grid-template-rows: 30px 280px 280px 290px 270px;
+    grid-template-rows: 30px 300px 300px 300px 270px;
     grid-template-areas: "tituloTecnico" "sonido" "iluminacion" "escenario" "pantallaLed";
     grid-row-gap: 15px;
     padding-top: 90px;
@@ -358,7 +359,7 @@
     width: auto; }
   .nav {
     display: none; }
-  .img {
+  .img__nav {
     display: none; }
   .img-nav-hambur {
     height: 65px;
@@ -394,11 +395,12 @@
     font-size: 35px;
     font-family: "Montserrat"; }
   .imagenpapel_box {
-    background-image: url(../galeria/krys-amon-vn8Falk7JbU-unsplash.jpg);
-    background-position: cover;
-    background-size: 720px 400px;
-    border-radius: 5px 5px 5px 5px;
     grid-area: imagen; }
+  .img__fiesta {
+    width: 700px;
+    height: 400px;
+    border-radius: 5px 5px 5px 5px;
+    object-fit: cover; }
   .logosinicio__box {
     background-color: #9E9E9E;
     border-radius: 5px 5px 5px 5px;
@@ -420,13 +422,13 @@
     height: 40px;
     align-self: center; }
   .footer__box {
-    background-color: #6D0000;
-    width: auto;
-    height: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    background-color: #6D0000;
+    width: auto;
+    height: auto;
     z-index: 9999;
     padding-top: 15px;
     padding-bottom: 15px; }
@@ -469,7 +471,7 @@
     justify-content: center;
     padding: 20px; }
   .quienessomosimg {
-    width: 220px; }
+    width: 250px; }
   .card-2 {
     display: flex;
     flex-direction: row;
@@ -691,7 +693,7 @@
     margin-bottom: 10px;
     margin-right: 50px;
     font-family: "Source Sans Pro" "sans-serif"; }
-  .img {
+  .img__nav {
     height: 80px;
     margin-left: 35px;
     margin-bottom: 5px; }
@@ -701,7 +703,7 @@
     color: #6D0000;
     font-size: 21px; }
     .link-color:hover {
-      color: #000; }
+      color: #575757; }
   .navdesktop {
     margin-right: 50px; }
   /* Inicio-index*/
@@ -736,13 +738,12 @@
     font-size: 35px;
     color: #6D0000; }
   .imagenpapel_box {
-    display: flex;
-    flex-wrap: nowrap;
-    background-image: url(../galeria/krys-amon-vn8Falk7JbU-unsplash.jpg);
-    background-position: cover;
-    background-size: 1100px 600px;
-    border-radius: 5px 5px 5px 5px;
     grid-area: imagen; }
+  .img__fiesta {
+    height: 600px;
+    width: 1100px;
+    border-radius: 5px 5px 5px 5px;
+    object-fit: cover; }
   .logosinicio__box {
     background-color: #9E9E9E;
     border-radius: 5px 5px 5px 5px;
@@ -911,7 +912,8 @@
     font-family: "Montserrat";
     font-size: 33px;
     grid-area: tituloTecnico;
-    justify-self: center; }
+    justify-self: center;
+    color: #6D0000; }
   /* Tecnica-sonido*/
   .tecnica__sonido__box {
     grid-area: sonido;
