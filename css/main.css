@@ -31,7 +31,8 @@
     background: #535353;
     background: linear-gradient(180deg, #535353 11%, #d0d0d0 97%, white 100%); }
   .row__index {
-    padding-top: 80px; }
+    padding-top: 80px;
+    margin-bottom: 50px; }
   .rowTitulo {
     border-radius: 5px 5px 5px 5px;
     background-color: #9E9E9E; }
@@ -73,9 +74,9 @@
   .footer__face__logo {
     width: 35px; }
   /* empresa*/
-  .grid__empresa__box {
-    margin-top: 90px; }
-  /* empresa-quienes somos*/
+  .rowcustom {
+    margin-top: 100px;
+    margin-bottom: 40px; }
   .quienesSomos__box {
     background-color: #9E9E9E;
     border-radius: 5px 5px 5px 5px;
@@ -270,7 +271,6 @@
     height: 200px; }
   /* contacto */
   #grid__contacto {
-    height: 100vh;
     grid-template-columns: 310px;
     grid-template-rows: 500px;
     grid-template-areas: "fieldset";
@@ -327,7 +327,8 @@
     background: #535353;
     background: linear-gradient(180deg, #535353 11%, #d0d0d0 97%, white 100%); }
   .row__index {
-    padding-top: 90px; }
+    padding-top: 90px;
+    margin-bottom: 50px; }
   .rowTitulo {
     border-radius: 5px 5px 5px 5px;
     background-color: #9E9E9E; }
@@ -370,9 +371,9 @@
   .footer__face__logo {
     width: 40px; }
   /* empresa*/
-  .grid__empresa__box {
-    margin-top: 90px; }
-  /* empresa-quienes somos*/
+  .rowcustom {
+    margin-top: 120px;
+    margin-bottom: 50px; }
   .quienesSomos__box {
     background-color: #9E9E9E;
     border-radius: 5px 5px 5px 5px;
@@ -573,8 +574,8 @@
     grid-template-areas: "fieldset";
     justify-content: center;
     align-items: center;
-    padding-top: 90px;
-    height: 100vh; }
+    padding-top: 80px;
+    margin-bottom: 25px; }
   .fieldset {
     grid-area: fieldset;
     display: flex;
@@ -628,17 +629,26 @@
     background: #535353;
     background: linear-gradient(180deg, #535353 11%, #d0d0d0 97%, white 100%); }
   .row__index {
-    padding-top: 100px; }
+    padding-top: 100px;
+    margin-bottom: 50px; }
   .rowTitulo {
     border-radius: 5px 5px 5px 5px;
     background-color: #9E9E9E; }
   .index__titulo {
     font-family: "Montserrat";
-    font-size: 36px; }
+    font-size: 38px; }
   .index__subTitulo {
     font-family: "Source Sans Pro" "sans-serif";
     color: #6D0000;
     font-size: 32px; }
+  .logo1 {
+    width: 250px; }
+  .logo2 {
+    width: 250px; }
+  .logo3 {
+    width: 250px; }
+  .logo4 {
+    width: 250px; }
   .footer__box {
     background-color: #6D0000;
     width: auto;
@@ -669,12 +679,9 @@
   .footer__face__logo {
     width: 45px; }
   /* empresa*/
-  .grid__empresa__box {
-    margin-top: 95px;
-    height: 100vh;
-    display: flex;
-    justify-content: center; }
-  /* empresa-quienes somos*/
+  .rowcustom {
+    margin-top: 170px;
+    margin-bottom: 80px; }
   .quienesSomos__box {
     background-color: #9E9E9E;
     border-radius: 5px 5px 5px 5px;
@@ -777,7 +784,7 @@
   #grid__tecnica {
     display: grid;
     grid-template-columns: 1100px;
-    grid-template-rows: 45px 810px 680px 700px 550px;
+    grid-template-rows: 45px 700px 630px 630px 530px;
     grid-template-areas: "tituloTecnico" "sonido" "iluminacion" "escenario" "pantallaLed";
     grid-row-gap: 15px;
     padding-top: 120px;
@@ -793,19 +800,20 @@
   .tecnica__sonido__box {
     grid-area: sonido;
     border-radius: 5px;
+    padding-top: 10px;
     background-color: #9E9E9E; }
   .tecnica__sonido__titulo {
     font-size: 30px;
     font-family: "Montserrat";
     align-self: center; }
   .imgSq7 {
-    height: 650px;
+    height: 600px;
     object-fit: contain; }
   .imgArray {
-    height: 650px;
+    height: 600px;
     object-fit: contain; }
   .imgCrown {
-    height: 650px;
+    height: 600px;
     object-fit: contain; }
   /* Tecnica-iluminacion*/
   .tecnica__iluminacion__box {
@@ -876,7 +884,6 @@
     object-fit: fill; }
   /* contacto */
   #grid__contacto {
-    height: 100vh;
     display: grid;
     grid-template-columns: 550px;
     grid-template-rows: 745px;

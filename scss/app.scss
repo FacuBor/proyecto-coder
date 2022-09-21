@@ -35,6 +35,7 @@
         }
         .row__index {
             padding-top: 80px;
+            margin-bottom: 50px;
         }
         .rowTitulo {
             border-radius: 5px 5px 5px 5px;
@@ -87,10 +88,10 @@
             width: 35px;
         }
         /* empresa*/
-        .grid__empresa__box {
-            margin-top: 90px;
+        .rowcustom {
+            margin-top: 100px;
+            margin-bottom: 40px;
         }
-        /* empresa-quienes somos*/
         .quienesSomos__box {
             background-color: $primary-color;   
             border-radius: 5px 5px 5px 5px;
@@ -334,7 +335,6 @@
         }
         /* contacto */
         #grid__contacto {
-            height: 100vh;
             grid-template-columns: 310px;
             grid-template-rows: 500px;
             grid-template-areas:
@@ -404,6 +404,7 @@
         }
         .row__index {
             padding-top: 90px;
+            margin-bottom: 50px;
         }
         .rowTitulo {
             border-radius: 5px 5px 5px 5px;
@@ -453,10 +454,10 @@
             width: 40px;
         }
          /* empresa*/
-         .grid__empresa__box {
-            margin-top: 90px;
+         .rowcustom {
+            margin-top: 120px;
+            margin-bottom: 50px;
         }
-        /* empresa-quienes somos*/
         .quienesSomos__box {
             background-color: $primary-color;   
             border-radius: 5px 5px 5px 5px;
@@ -707,8 +708,8 @@
             "fieldset";
             justify-content: center;
             align-items: center;
-            padding-top: 90px;
-            height: 100vh;
+            padding-top: 80px;
+            margin-bottom: 25px;
         }
         .fieldset{
             grid-area: fieldset;
@@ -778,6 +779,7 @@
         }
         .row__index {
             padding-top: 100px;
+            margin-bottom: 50px;
         }
         .rowTitulo {
             border-radius: 5px 5px 5px 5px;
@@ -785,12 +787,24 @@
         }
         .index__titulo {
             font-family: $primary-typography;
-            font-size: map-get($font-sz, xxl );
+            font-size: map-get($font-sz, xxxl );
         }
         .index__subTitulo {
             font-family: $secondary-typography;
             color: $secondary-color;
             font-size: map-get($font-sz, xl );
+        }
+        .logo1 {
+            width: 250px;
+        }
+        .logo2 {
+            width: 250px;
+        }
+        .logo3 {
+            width: 250px;
+        }
+        .logo4 {
+            width: 250px;
         }
         .footer__box {
             background-color: $secondary-color;
@@ -825,13 +839,10 @@
             width: 45px;
         }
         /* empresa*/
-        .grid__empresa__box {
-            margin-top: 95px;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
+        .rowcustom {
+            margin-top: 170px;
+            margin-bottom: 80px;
         }
-        /* empresa-quienes somos*/
         .quienesSomos__box {
             background-color: $primary-color;   
             border-radius: 5px 5px 5px 5px;
@@ -959,7 +970,7 @@
         #grid__tecnica {
             display: grid;
             grid-template-columns: 1100px;
-            grid-template-rows: 45px 810px 680px 700px 550px;
+            grid-template-rows: 45px 700px 630px 630px 530px;
             grid-template-areas:
             "tituloTecnico"
             "sonido"
@@ -982,6 +993,7 @@
         .tecnica__sonido__box{
             grid-area: sonido;
             border-radius: 5px;
+            padding-top: 10px;
             background-color: $primary-color;
         }
         .tecnica__sonido__titulo {
@@ -990,15 +1002,15 @@
             align-self: center;
         }
         .imgSq7 {
-            height: 650px;
+            height: 600px;
             object-fit: contain;
         }
         .imgArray {
-            height: 650px;
+            height: 600px;
             object-fit: contain;
         }
         .imgCrown {
-            height: 650px;
+            height: 600px;
             object-fit: contain;
         }
         /* Tecnica-iluminacion*/
@@ -1086,7 +1098,6 @@
         }
         /* contacto */
         #grid__contacto {
-            height: 100vh;
             display: grid;
             grid-template-columns: 550px;
             grid-template-rows: 745px;
