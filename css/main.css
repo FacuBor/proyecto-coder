@@ -628,9 +628,6 @@
   .navdesktop {
     margin-right: 50px; }
   /* Inicio-index*/
-  .index__container {
-    background: #535353;
-    background: linear-gradient(180deg, #535353 11%, #d0d0d0 97%, white 100%); }
   .row__index {
     padding-top: 100px;
     margin-bottom: 50px; }
